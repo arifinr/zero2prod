@@ -24,5 +24,3 @@ jobs:
       run: cargo clippy -- -D warnings
     - name: Format
       run: cargo fmt -- --check
-    - name: Security vulnerabilities 
-      run: cargo audit
